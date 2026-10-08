@@ -1,0 +1,25 @@
+import {
+  BedDoubleIcon,
+  CalendarCheckIcon,
+  CalendarDaysIcon,
+  ClipboardListIcon,
+  DoorOpenIcon,
+  LayoutDashboardIcon,
+  PackageIcon,
+  SparklesIcon,
+  UsersIcon,
+  LogInIcon,
+} from 'lucide-react';
+export const navMain = [
+  { title: 'Dashboard', url: '/dashboard', icon: LayoutDashboardIcon },
+  { title: 'Reservation', url: '/reservation', icon: CalendarCheckIcon },
+  { title: 'Check In', url: '/check-in', icon: LogInIcon },
+  { title: 'Request Additional Item(s)', url: '/request-additional-items', icon: PackageIcon },
+  { title: 'Check Out', url: '/check-out', icon: DoorOpenIcon },
+  { title: 'Master Room Type', url: '/master-room-type', icon: BedDoubleIcon },
+  { title: 'Master Room', url: '/master-room', icon: BedDoubleIcon },
+  { title: 'Master Item', url: '/master-item', icon: ClipboardListIcon },
+  { title: 'Add Housekeeping Schedule', url: '/housekeeping-schedule', icon: CalendarDaysIcon },
+  { title: 'Cleaning Room', url: '/cleaning-room', icon: SparklesIcon },
+  { title: 'Master Employee', url: '/master-employee', icon: UsersIcon },
+];
